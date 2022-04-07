@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rober\\Desktop\\PB Slut opgave\\ProjectOwl\\Owlet\\Owlet.csproj",
+      "projectUniqueName": "C:\\Users\\rober\\Desktop\\PB Slut opgave\\Owlet\\Owlet.csproj",
       "projectName": "Owlet",
-      "projectPath": "C:\\Users\\rober\\Desktop\\PB Slut opgave\\ProjectOwl\\Owlet\\Owlet.csproj",
+      "projectPath": "C:\\Users\\rober\\Desktop\\PB Slut opgave\\Owlet\\Owlet.csproj",
       "packagesPath": "C:\\Users\\rober\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rober\\Desktop\\PB Slut opgave\\ProjectOwl\\Owlet\\obj\\",
+      "outputPath": "C:\\Users\\rober\\Desktop\\PB Slut opgave\\Owlet\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\rober\\AppData\\Roaming\\NuGet\\NuGet.Config",
