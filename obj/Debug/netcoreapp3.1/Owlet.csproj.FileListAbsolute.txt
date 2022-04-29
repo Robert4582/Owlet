@@ -1,0 +1,10 @@
+X:\VisualStudioProjects\Robert4582\Owlet\bin\Debug\netcoreapp3.1\Owlet.deps.json
+X:\VisualStudioProjects\Robert4582\Owlet\bin\Debug\netcoreapp3.1\Owlet.dll
+X:\VisualStudioProjects\Robert4582\Owlet\bin\Debug\netcoreapp3.1\Owlet.pdb
+X:\VisualStudioProjects\Robert4582\Owlet\obj\Debug\netcoreapp3.1\Owlet.csproj.AssemblyReference.cache
+X:\VisualStudioProjects\Robert4582\Owlet\obj\Debug\netcoreapp3.1\Owlet.GeneratedMSBuildEditorConfig.editorconfig
+X:\VisualStudioProjects\Robert4582\Owlet\obj\Debug\netcoreapp3.1\Owlet.AssemblyInfoInputs.cache
+X:\VisualStudioProjects\Robert4582\Owlet\obj\Debug\netcoreapp3.1\Owlet.AssemblyInfo.cs
+X:\VisualStudioProjects\Robert4582\Owlet\obj\Debug\netcoreapp3.1\Owlet.csproj.CoreCompileInputs.cache
+X:\VisualStudioProjects\Robert4582\Owlet\obj\Debug\netcoreapp3.1\Owlet.dll
+X:\VisualStudioProjects\Robert4582\Owlet\obj\Debug\netcoreapp3.1\Owlet.pdb

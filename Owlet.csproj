@@ -4,4 +4,10 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Test-Owlet\**" />
+    <EmbeddedResource Remove="Test-Owlet\**" />
+    <None Remove="Test-Owlet\**" />
+  </ItemGroup>
+
 </Project>
