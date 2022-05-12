@@ -97,3 +97,5 @@ X:\VisualStudioProjects\Robert4582\Owlet\Test-Owlet\obj\Debug\netcoreapp3.1\Test
 X:\VisualStudioProjects\Robert4582\Owlet\Test-Owlet\obj\Debug\netcoreapp3.1\Test-Owlet.dll
 X:\VisualStudioProjects\Robert4582\Owlet\Test-Owlet\obj\Debug\netcoreapp3.1\Test-Owlet.pdb
 X:\VisualStudioProjects\Robert4582\Owlet\Test-Owlet\obj\Debug\netcoreapp3.1\Test-Owlet.genruntimeconfig.cache
+X:\VisualStudioProjects\Robert4582\Owlet\Test-Owlet\bin\Debug\netcoreapp3.1\RabbitMQ.Client.dll
+X:\VisualStudioProjects\Robert4582\Owlet\Test-Owlet\bin\Debug\netcoreapp3.1\System.Threading.Channels.dll

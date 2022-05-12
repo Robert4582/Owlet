@@ -10,7 +10,8 @@ namespace OwletTests
         [SetUp]
         public void Setup()
         {
-            logger = new BaseLogger();
+            BaseLogger.ClearLogger();
+            logger = BaseLogger.Instance;
         }
 
         [Test]

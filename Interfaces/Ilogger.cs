@@ -11,7 +11,7 @@ namespace Owlet.Interfaces
         public int CurrentBatchSize { get; }
         public int MaxBatchSize { get; set; }
         TStorage Batched { get; set; }
-        public INetworkWriter Writer { get; set; }
+        public INetworkWriter Writer { get; }
 
         public void Log<TData>(TData data) where TData : TStorageData;
         public void Log<TData>(IEnumerable<TData> data) where TData : TStorageData;

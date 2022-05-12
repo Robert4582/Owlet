@@ -13,7 +13,29 @@ namespace Owlet.BaseClasses
 
         public int MaxBatchSize { get; set; } = 512;
         public List<object> Batched { get; set; } = new List<object>();
-        public INetworkWriter Writer { get; set; }
+
+        private BaseNetworkWriter writer;
+
+        public INetworkWriter Writer { get => writer; }
+
+        private static BaseLogger instance;
+        private BaseLogger()
+        {
+            writer = new BaseNetworkWriter("127.0.0.1");
+        }
+        public static BaseLogger Instance
+        {
+            get
+            {
+                if (instance == null)
+                    instance = new BaseLogger();
+                return instance;
+            }
+        }
+        public static void ClearLogger()
+        {
+            instance = null;
+        }
 
         public void Log<T>(T data)
         {

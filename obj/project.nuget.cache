@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "hiOGnWmY26w+i3X7DMyxRNikMJjP7yAuBmwVawEJIJAzYEEU5yymez27Ose9VriIAuxyV4AJTTf894X5sGI6gA==",
+  "dgSpecHash": "+OxhhPzXMkQvZYGQc244rSdSzhg8fTJJgo5c0yg5qPB51zGboEdkp5H65R5vVtQDs9rC4zbLcDcrGz1/wcNIoA==",
   "success": true,
   "projectFilePath": "X:\\VisualStudioProjects\\Robert4582\\Owlet\\Owlet.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\kaspe_000\\.nuget\\packages\\rabbitmq.client\\6.3.0\\rabbitmq.client.6.3.0.nupkg.sha512",
+    "C:\\Users\\kaspe_000\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\kaspe_000\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512"
+  ],
   "logs": []
 }

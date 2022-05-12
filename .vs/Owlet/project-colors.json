@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "3b8a4028-b134-4357-910f-2d8ec6caa3a8": {
+      "ProjectGuid": "3b8a4028-b134-4357-910f-2d8ec6caa3a8",
+      "DisplayName": "Test-Owlet",
+      "ColorIndex": 0
+    },
+    "d1f96ff1-95e1-41e7-8ae6-0c6d67dd37ce": {
+      "ProjectGuid": "d1f96ff1-95e1-41e7-8ae6-0c6d67dd37ce",
+      "DisplayName": "Owlet",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 2
+}
