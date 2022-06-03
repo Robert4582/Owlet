@@ -12,14 +12,18 @@ namespace Owlet.BaseClasses
 {
     public class BaseNetworkWriter : INetworkWriter
     {
+        public static int StandardPort = 13370;
+
         private int port;
         private TcpClient client;
         private int[] openPorts;
         private NetworkStream stream;
         private Socket socket;
 
-        public BaseNetworkWriter(string server, int port = 13370)
+        public BaseNetworkWriter(string server, int port = -1)
         {
+            this.port = port == -1 ? StandardPort : port;
+
             client = new TcpClient(server, this.port);
             stream = client.GetStream();
             socket = client.Client;
