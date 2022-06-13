@@ -66,9 +66,10 @@ namespace OwletTests
         [Test]
         public void NoBatchedFileMeaningfulError()
         {
+            logger.DeleteAllLogs();
             TestDelegate ExceptionCall = () => logger.NewestFile.ReadText();
 
-            Assert.Throws<Owlet.Exceptions.NoSavedLogException>(ExceptionCall);
+            Assert.Throws<Owlet.Exceptions.NoBatchedLogException>(ExceptionCall);
         }
     }
 }

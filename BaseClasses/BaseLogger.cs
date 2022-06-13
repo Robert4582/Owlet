@@ -1,4 +1,5 @@
-﻿using Owlet.Interfaces;
+﻿using Owlet.Exceptions;
+using Owlet.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -18,7 +19,17 @@ namespace Owlet.BaseClasses
 
         public int MaxBatchSize { get; set; } = 512;
         public List<FileData> Batched { get; set; } = new List<FileData>();
-        public FileData NewestFile => Batched[Batched.Count - 1];
+        public FileData NewestFile
+        {
+            get
+            {
+                if (Batched.Count == 0)
+                {
+                    throw new NoBatchedLogException(null, 0.ToString());
+                }
+                return Batched[Batched.Count - 1];
+            }
+        }
 
         private BaseNetworkWriter writer;
 
@@ -124,7 +135,8 @@ namespace Owlet.BaseClasses
 
         public void Send()
         {
-            throw new NotImplementedException();
+            NewestFile.SaveFile();
+            Writer.Send(NewestFile.ReadText());
         }
     }
 }
